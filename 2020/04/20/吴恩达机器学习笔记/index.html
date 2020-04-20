@@ -13,6 +13,15 @@
     
 
     
+        <meta name="description" content="1.1 什么是机器学习定义1（Arthur Samuel）：无需明确设置，就能让计算机自我学习的研究领域
+定义2（Tom Michell）：计算机通过解决任务T，不断学习经验E，并通过度量手段P来逐步提高E的过程
+机器学习分为两种类型：
+
+有监督学习
+无监督学习
+
+1.2 有监督学习机器学习最常见的"/>
+    
 
     <!--Author-->
     
@@ -21,10 +30,19 @@
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="Cool Tags"/>
+        <meta property="og:title" content="吴恩达机器学习笔记"/>
     
 
     <!--Open Graph Description-->
+    
+        <meta property="og:description" content="1.1 什么是机器学习定义1（Arthur Samuel）：无需明确设置，就能让计算机自我学习的研究领域
+定义2（Tom Michell）：计算机通过解决任务T，不断学习经验E，并通过度量手段P来逐步提高E的过程
+机器学习分为两种类型：
+
+有监督学习
+无监督学习
+
+1.2 有监督学习机器学习最常见的"/>
     
 
     <!--Open Graph Site Name-->
@@ -51,7 +69,7 @@
 
     <!-- Title -->
     
-    <title>Cool Tags - Mind and Hand</title>
+    <title>吴恩达机器学习笔记 - Mind and Hand</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
@@ -147,75 +165,88 @@
 </nav>
 
     <!-- Main Content -->
-    
+    <!-- Page Header -->
+<!-- Set your background image for this header in your post front-matter: cover -->
 
-
-    <header class="intro-header" style="background-image: url('http://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/img/home-bg.jpg')">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <div class="site-heading">
-                        <h1>Cool Tags</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <!-- Main Content -->
+<header class="intro-header" style="background-image: url('http://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/img/home-bg.jpg')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                
-                    <div class="post-preview">
-    <a href="/tags/oschina/">
-        <h1 class="post-title archive">
-            oschina
-        </h1>
-    </a>
-</div>
-                
-                    <div class="post-preview">
-    <a href="/tags/mit/">
-        <h1 class="post-title archive">
-            mit
-        </h1>
-    </a>
-</div>
-                
-                    <div class="post-preview">
-    <a href="/tags/learning/">
-        <h1 class="post-title archive">
-            learning
-        </h1>
-    </a>
-</div>
-                
-                    <div class="post-preview">
-    <a href="/tags/azure/">
-        <h1 class="post-title archive">
-            azure
-        </h1>
-    </a>
-</div>
-                
-                    <div class="post-preview">
-    <a href="/tags/machine-learning/">
-        <h1 class="post-title archive">
-            machine learning
-        </h1>
-    </a>
-</div>
-                
-                <div class="archive-before-pagination"></div>
+                <div class="post-heading">
+                    <h1>吴恩达机器学习笔记</h1>
+                    
+                    <span class="meta">
+                        <!-- Date and Author -->
+                        
+                        
+                            2020-04-20
+                        
+                    </span>
+                </div>
             </div>
         </div>
     </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+            <!-- Tags and categories -->
+           
+                <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 post-tags">
+                    
+                        
 
 
+<a href="/tags/machine-learning/">#machine learning</a>
 
 
+                    
+                </div>
+                <div class="col-lg-4 col-md-5 post-categories">
+                    
+                </div>
+            
 
+            <!-- Gallery -->
+            
+
+            <!-- Post Main Content -->
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <h2 id="1-1-什么是机器学习"><a href="#1-1-什么是机器学习" class="headerlink" title="1.1 什么是机器学习"></a>1.1 什么是机器学习</h2><p>定义1（Arthur Samuel）：无需明确设置，就能让计算机自我学习的研究领域</p>
+<p>定义2（Tom Michell）：计算机通过解决任务T，不断学习经验E，并通过度量手段P来逐步提高E的过程</p>
+<p>机器学习分为两种类型：</p>
+<ol>
+<li>有监督学习</li>
+<li>无监督学习</li>
+</ol>
+<h2 id="1-2-有监督学习"><a href="#1-2-有监督学习" class="headerlink" title="1.2 有监督学习"></a>1.2 有监督学习</h2><p>机器学习最常见的类型</p>
+<p>定义：机器学习任务的数据样本中，包含了每种场景的<strong>正确答案</strong>，这个任务会基于这些<strong>正确答案</strong>得到自己目标场景的正确答案</p>
+<h3 id="回归问题"><a href="#回归问题" class="headerlink" title="回归问题"></a>回归问题</h3><p>该机器学习任务设法预测一个连续的数值输出，如预测北京市明年5月的平均房价</p>
+<h3 id="分类问题"><a href="#分类问题" class="headerlink" title="分类问题"></a>分类问题</h3><p>该机器学习任务设法预测离散的输出值，通常分类的类别数量有限，如预测肿瘤是良性还是恶性，或者肿瘤的类型</p>
+<h2 id="1-3-无监督学习"><a href="#1-3-无监督学习" class="headerlink" title="1.3 无监督学习"></a>1.3 无监督学习</h2><p>定义：机器学习任务的数据样本中，不包含每种场景的正确答案，这个任务会基于这些数据的特性将数据分门别类</p>
+<h3 id="聚类问题"><a href="#聚类问题" class="headerlink" title="聚类问题"></a>聚类问题</h3><p>该机器学习任务设法将不同数据分开聚类，比如谷歌news将不同媒体相同主题的报道汇聚到一块，或者基于社交网络信息划分成不同的社交圈</p>
+<h2 id="2-1-线性回归模型"><a href="#2-1-线性回归模型" class="headerlink" title="2.1 线性回归模型"></a>2.1 线性回归模型</h2><p>试图学得一个线性模型，以尽可能准确的预测该场景的输出值。如基于房子的面积x，预测房价y，线性方程为h(x)=a+b*x</p>
+<h2 id="2-2-代价函数"><a href="#2-2-代价函数" class="headerlink" title="2.2 代价函数"></a>2.2 代价函数</h2><p>基于房子面积预测房价，这个机器学习任务的目标是预测的值接近真实房价，就是结果尽可能准确。要让结果尽可能准确，通常是计模型输出值h(x)和真实值y的方差，获取最小方差（通常是方差1/2，方便后续求导），<br>$$<br>J(a,b)=\frac{1}{2m}\sum_{i=1}^{m}(h(x_i)-y_i)^2<br>$$<br>其中J(a,b)就是代价函数，上述的平均方差函数就是一个代价函数，这个机器学习模型就是要求出a和b，使得J(a,b)最小</p>
+<p><strong>平均方差函数</strong>是求回归问题的常用手段</p>
+
+
+                
+            </div>
+
+            <!-- Comments -->
+            
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    
+
+
+                </div>
+            
+        </div>
+    </div>
+</article>
 
     <!-- Footer -->
     <hr />
